@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohamed Anash Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <h1>Mohamed Anash A</h1>
+    <nav>
+  <div class="nav-toggle" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#internships">Internships</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="Assets/Mohamed Anash  Resume.pdf" class="resume-btn" download>Download Resume</a></li>
+    <li><button onclick="toggleDarkMode()">🌙</button></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <section id="about" class="fade-in">
+    <h1>About Me</h1>
+    <img src="Assets/Mohamed Anash Profile.jpg" alt="Profile" class="profile"/>
+    <p>I am a Computer Science graduate with a keen interest in artificial intelligence and machine learning. I have completed internships where I applied Python and data analysis to develop practical solutions. With a strong problem-solving mindset and a continuous learning attitude, I aim to contribute meaningfully to real-world technology challenges.</p>
+  </section>
+
+  <section id="skills" class="fade-in">
+    <h2>Skills</h2>
+    <div class="card-grid">
+      <div class="skill-card"><img src="Assets/python.png" alt="Python"/><p>Python</p></div>
+      <div class="skill-card"><img src="Assets/tensorflow.png" alt="TensorFlow"/><p>TensorFlow</p></div>
+      <div class="skill-card"><img src="Assets/keras.png" alt="Keras"/><p>Keras</p></div>
+      <div class="skill-card"><img src="Assets/opencv.png" alt="OpenCV"/><p>OpenCV</p></div>
+      <div class="skill-card"><img src="Assets/sk learn.png" alt="Scikit-learn"/><p>Scikit-learn</p></div>
+      <div class="skill-card"><img src="Assets/matplotlib.png" alt="Scikit-learn"/><p>Matplotlib</p></div>
+      <div class="skill-card"><img src="Assets/NLP.jpg" alt="Scikit-learn"/><p>NLP</p></div>
+      <div class="skill-card"><img src="Assets/numpy.png" alt="Scikit-learn"/><p>Numpy</p></div>
+      <div class="skill-card"><img src="Assets/pandas.png" alt="Scikit-learn"/><p>Pandas</p></div>
+      <div class="skill-card"><img src="Assets/tensorflow.png" alt="Scikit-learn"/><p>TensorFlow</p></div>
+      <div class="skill-card"><img src="Assets/Project Management.png" alt="Scikit-learn"/><p>Project Management</p></div>
+    </div>
+  </section>
+
+  <section id="certifications" class="fade-in">
+    <h2>Certifications</h2>
+    <div class="certs">
+      <div class="cert-card"><img src="Assets/python certification.png" alt="Python"/><p>GUVI – Python Programming</p></div>
+      <div class="cert-card"><img src="Assets/aws certification.jpg" alt="AWS"/><p>AWS Cloud Practitioner</p></div>
+      <div class="cert-card"><img src="Assets/data analyst.png" alt="Honeywell"/><p>Honeywell – Data Analyst</p></div>
+      <div class="cert-card"><img src="Assets/Cybersecurity Analyst Certificate .jpg" alt="Tata"/><p>Tata – Cybersecurity</p></div>
+      <div class="cert-card"><img src="Assets/Certificate Of Completion_Project Management.jpg" alt="LinkedIn"/><p>LinkedIn – Project Management</p></div>
+      <div class="cert-card"><img src="Assets/codex hackathon.jpg" alt="Participant"/><p>Codex Hackathon Participant</p></div>
+      <div class="cert-card"><img src="Assets/Deloitte Data Analysis Certification.jpg" alt="Deloitte"/><p>Deloitte – Data Analyst</p></div>
+      <div class="cert-card"><img src="Assets/Gen AI Certificate.png" alt="Google"/><p>Google – GenAI</p></div>
+      <div class="cert-card"><img src="Assets/Image Generation Certification.png" alt="Google"/><p>Google – Image Generation</p></div>
+      <div class="cert-card"><img src="Assets/artificial-intelligence-fundamentals.jpg" alt="IBM"/><p>IBM – Artificial Intelligence Fundamentals</p></div>
+      <div class="cert-card"><img src="Assets/large language model certification.png" alt="Google"/><p>Google – LLM Introduction</p></div>
+    </div>
+  </section>
+
+  <section id="internships" class="fade-in">
+    <h2>Internships</h2>
+    <div class="internship-list">
+      <div>
+        <h3>Machine Learning Intern – Cognifyz Technologies (Remote)  (Jul 24 - Aug 24)</h3>
+        <p>Worked on ML projects like classification & recommendation systems using Python, Pandas, Scikit-learn.</p>
+      </div>
+      <div>
+        <h3>Project Intern – Tarcin Robotics (Remote)  (Jan 25 - Jun 25)</h3>
+        <p>Created educational tools using Python logic for school students.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="Assets/Leaf Disease Diagnosis.png" alt="Project 1">
+        <p><strong>Enhanced Disease Diagnosis in Mango Leaves based on Image Enhancement and EfficientNet</strong></p>
+        <a href="https://huggingface.co/spaces/mohamedanash2004/mango-leaf-disease-prediction/tree/main" target="_blank" class="view-btn">View Code</a>
+      </div>
+      <div class="project-card">
+        <img src="Assets/Restaurant Recomendation System.png" alt="Project 2">
+        <p><strong>Restuarant Related Project Tasks</strong></p>
+        <a href="https://github.com/Mdanash/COGNIFYZ" target="_blank" class="view-btn">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <div class="social-icons">
+      <a href="mailto:mohamedanash0404@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/mohamed-anash" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/mdanash" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/mohamed_anash_04" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p><i class="fas fa-phone"></i> +91 93634 79968</p>
+    <p><i class="fas fa-map-marker-alt"></i> Thiruvarur, India</p>
+  </section>
+
+  <section id="feedback" class="fade-in">
+    <h2>Feedback Form</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required /><br>
+      <input type="email" name="email" placeholder="Your Email" required /><br>
+      <textarea name="message" placeholder="Your Feedback" rows="5" required></textarea><br>
+      <button type="submit">Send Feedback</button>
+      <p id="status"></p>
+    </form>
+  </section>
+
+  <button id="scrollTopBtn" title="Go to top">
+  ↑
+</button>
+
+
+  <footer>
+    <p>© 2025 Mohamed Anash. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
