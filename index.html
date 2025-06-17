@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Anash Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Mohamed Anash A</h1>
+      <nav>
+        <div class="nav-toggle" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about" class="fade-in about-section">
+      <h1>About Me</h1>
+      <div class="about-content">
+        <img
+          src="Assets/Mohamed Anash Profile.jpg"
+          alt="Profile"
+          class="profile"
+        />
+        <div class="about-text">
+          <p>
+            I am a Computer Science graduate with a keen interest in artificial
+            intelligence and machine learning. I have completed internships
+            where I applied Python and data analysis to develop practical
+            solutions. With a strong problem-solving mindset and a continuous
+            learning attitude, I aim to contribute meaningfully to real-world
+            technology challenges.
+          </p>
+          <h3>I am a <span class="animated-role"></span></h3>
+          <a
+            href="Assets/Mohamed Anash Resume.pdf"
+            class="resume-download"
+            download
+            >📄 Download Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+      <h2>Skills</h2>
+      <div class="scroll-wrapper">
+        <div class="arrow-left-container">
+          <button id="skillLeft" class="scroll-btn scroll-left">&#8249;</button>
+        </div>
+        <div class="card-grid scroll-container" id="skillScroll">
+          <div class="skill-card">
+            <img src="Assets/python.png" alt="Python" />
+            <p>Python</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/tensorflow.png" alt="TensorFlow" />
+            <p>TensorFlow</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/keras.png" alt="Keras" />
+            <p>Keras</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/opencv.png" alt="OpenCV" />
+            <p>OpenCV</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/sk learn.png" alt="Scikit-learn" />
+            <p>Scikit-learn</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/matplotlib.png" alt="Matplotlib" />
+            <p>Matplotlib</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/NLP.jpg" alt="NLP" />
+            <p>NLP</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/numpy.png" alt="Numpy" />
+            <p>Numpy</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/pandas.png" alt="Pandas" />
+            <p>Pandas</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/tensorflow.png" alt="TensorFlow" />
+            <p>TensorFlow</p>
+          </div>
+          <div class="skill-card">
+            <img src="Assets/Project Management.png" alt="Project Management" />
+            <p>Project Management</p>
+          </div>
+        </div>
+        <div class="arrow-right-container">
+          <button id="skillRight" class="scroll-btn scroll-right">
+            &#8250;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="fade-in">
+      <h2>Certifications and Digital Credentials</h2>
+      <div class="scroll-wrapper">
+        <div class="arrow-left-container">
+          <button id="certLeft" class="scroll-btn scroll-left">&#8249;</button>
+        </div>
+        <div class="certs scroll-container" id="certScroll">
+          <div class="cert-card">
+            <img src="Assets/python certification.png" alt="Python" />
+            <p>GUVI – Python Programming</p>
+          </div>
+          <div class="cert-card">
+            <img src="Assets/aws certification.jpg" alt="AWS" />
+            <p>AWS Cloud Practitioner</p>
+          </div>
+          <div class="cert-card">
+            <img src="Assets/data analyst.png" alt="Honeywell" />
+            <p>Honeywell – Data Analyst</p>
+          </div>
+          <div class="cert-card">
+            <img
+              src="Assets/Cybersecurity Analyst Certificate .jpg"
+              alt="Tata"
+            />
+            <p>Tata – Cybersecurity</p>
+          </div>
+          <div class="cert-card">
+            <img
+              src="Assets/Certificate Of Completion_Project Management.jpg"
+              alt="LinkedIn"
+            />
+            <p>LinkedIn – Project Management</p>
+          </div>
+          <div class="cert-card">
+            <img src="Assets/codex hackathon.jpg" alt="Participant" />
+            <p>Codex Hackathon Participant</p>
+          </div>
+          <div class="cert-card">
+            <img
+              src="Assets/Deloitte Data Analysis Certification.jpg"
+              alt="Deloitte"
+            />
+            <p>Deloitte – Data Analyst</p>
+          </div>
+          <div class="cert-card">
+            <img src="Assets/Gen AI Certificate.png" alt="Google" />
+            <p>Google – GenAI</p>
+          </div>
+          <div class="cert-card">
+            <img src="Assets/Image Generation Certification.png" alt="Google" />
+            <p>Google – Image Generation</p>
+          </div>
+          <div class="cert-card">
+            <img
+              src="Assets/artificial-intelligence-fundamentals.jpg"
+              alt="IBM"
+            />
+            <p>IBM – Artificial Intelligence Fundamentals</p>
+          </div>
+          <div class="cert-card">
+            <img
+              src="Assets/large language model certification.png"
+              alt="Google"
+            />
+            <p>Google – LLM Introduction</p>
+          </div>
+          <div class="cert-card">
+            <img
+              src="Assets/conference certificate Mohamed Anash.jpg"
+              alt="conference"
+            />
+            <p>International Conference</p>
+          </div>
+        </div>
+        <div class="arrow-right-container">
+          <button id="certRight" class="scroll-btn scroll-right">
+            &#8250;
+          </button>
+        </div>
+      </div>
+    </section>
+
+<section id="internships" class="fade-in">
+  <h2>Internships</h2>
+  <div class="internship-card-container">
+    <div class="internship-card">
+      <h3>Machine Learning Intern</h3>
+      <h4>Cognifyz Technologies (Remote)</h4>
+      <p class="duration">Jul 24 – Aug 24</p>
+      <p>Worked on ML projects like classification & recommendation systems using Python, Pandas, Scikit-learn.</p>
+    </div>
+
+    <div class="internship-card">
+      <h3>Project Intern</h3>
+      <h4>Tarcin Robotics (Remote)</h4>
+      <p class="duration">Jan 25 – Jun 25</p>
+      <p>Created educational tools using Python logic for school students.</p>
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="projects" class="fade-in">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <img src="Assets/Leaf Disease Diagnosis.png" alt="Project 1" />
+          <p>
+            <strong
+              >Enhanced Disease Diagnosis in Mango Leaves based on Image
+              Enhancement and EfficientNet</strong
+            >
+          </p>
+          <a
+            href="https://huggingface.co/spaces/mohamedanash2004/mango-leaf-disease-prediction/tree/main"
+            target="_blank"
+            class="view-btn"
+            >View Code</a
+          >
+        </div>
+        <div class="project-card">
+          <img
+            src="Assets/Restaurant Recomendation System.png"
+            alt="Project 2"
+          />
+          <p><strong>Restaurant Related Project Tasks</strong></p>
+          <a
+            href="https://github.com/Mdanash/COGNIFYZ"
+            target="_blank"
+            class="view-btn"
+            >View Code</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+      <h2>Contact</h2>
+      <div class="social-icons">
+        <a href="mailto:mohamedanash0404@gmail.com" target="_blank"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a href="https://linkedin.com/in/mohamed-anash" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/mdanash" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/mohamed_anash_04" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <p><i class="fas fa-phone"></i> +91 93634 79968</p>
+      <p><i class="fas fa-map-marker-alt"></i> Thiruvarur, India</p>
+    </section>
+
+    <section id="feedback" class="fade-in">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required /><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        /><br />
+        <textarea
+          name="message"
+          placeholder="Your Feedback"
+          rows="5"
+          required
+        ></textarea
+        ><br />
+        <button type="submit">Send Feedback</button>
+        <p id="status"></p>
+      </form>
+    </section>
+
+    <button id="scrollTopBtn" title="Go to top">↑</button>
+
+    <footer>
+      <p>© 2025 Mohamed Anash. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
