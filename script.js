@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 5. Typing + deleting role animation
   (function roleTyping() {
-    const roles = ["Data Analyst", "AI ML Engineer", "Python Developer"];
+    const roles = ["Data Analyst", "AI ML Enthusiast", "Python Developer"];
     const el = document.querySelector(".animated-role");
     if (!el) return;
     let roleIndex = 0, charIndex = 0, isDeleting = false;
